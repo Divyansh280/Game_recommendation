@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game Recommendation System</title>
+
+</head>
+<body style="background-color:black;">
+    <h1 style="background-color:grey;","justify-content:center;","color:white;">Game Recommendation System</h1>
+    <h3 style="color:white;">Genre</h3>
+    <p style="color:white;",> 'Sports', 'Platform', 'Racing', 'Role-Playing', 'Puzzle', 'Misc', 'Shooter', 'Simulation', 'Action', 'Fighting', 'Adventure', 'Strategy'
+    </p>
+    <h3 style="color:white;">Platform</h3>
+    <p style="color:white;"> 'Wii', 'NES', 'GB', 'DS', 'X360', 'PS3', 'PS2', 'SNES', 'GBA', 'PS4', '3DS', 'N64', 'PS', 'XB', 'PC', '2600', 'PSP', 'XOne', 'WiiU', 'GC', 'GEN', 'DC', 'PSV', 'SAT', 'SCD', 'WS', 'NG', 'TG16', '3DO', 'GG', 'PCFX' 
+    </p>
+    <h3 style="color:white;">Publisher</h3>
+    <p style="color:white;">'Nintendo', 'Microsoft Game Studios', 'Take-Two Interactive', 'Sony Computer Entertainment', 'Activision', 'Ubisoft', 'Bethesda Softworks', 'Electronic Arts', 'Sega', 'SquareSoft', 'Atari', '505 Games', 'Capcom', 'GT Interactive', 'Konami Digital Entertainment', 'Square Enix', 'Sony Computer Entertainment Europe', 'Virgin Interactive', 'LucasArts', 'Warner Bros. Interactive Entertainment', 'Universal Interactive', 'Eidos Interactive', 'RedOctane', 'Vivendi Games', 'Enix Corporation', 'Namco Bandai Games', 'Palcom', 'Hasbro Interactive', 'THQ', 'Fox Interactive', 'Acclaim Entertainment', 'MTV Games', 'Disney Interactive Studios', nan, 'Codemasters', 'Majesco Entertainment', 'Red Orb', 'Level 5', 'Arena Entertainment', 'Midway Games', 'JVC', 'Deep Silver', 'NCSoft', '989 Studios', 'UEP Systems', 'Parker Bros.', 'Maxis', 'Imagic', 'Tecmo Koei', 'ASCII Entertainment', 'Valve Software', 'Mindscape', 'Infogrames', 'Unknown', 'Square', 'Valve', 'Banpresto', 'Hello Games', 'D3Publisher', 'Activision Value', 'Oxygen Interactive', 'Red Storm Entertainment', 'Video System', 'Global Star', 'Gotham Games', 'Westwood Studios', 'GungHo', 'Crave Entertainment', 'Hudson Soft', 'Coleco', 'Rising Star Games', 'TDK Mediactive', 'ASC Games', 'Accolade', 'Zoo Games', 'Sony Online Entertainment', '3DO', 'Natsume', 'RTL', 'Alchemist', 'Black Label Games', 'SouthPeak Games', 'Focus Home Interactive', 'Ocean', 'Zoo Digital Publishing', 'Psygnosis', 'City Interactive', 'Empire Interactive', 'Success', 'Compile', 'Russel', 'Atlus', 'Mastertronic', 'Slightly Mad Studios', 'Taito', 'Agetec', 'Microprose', 'Play It', 'GSP', 'Tomy Corporation', 'Sammy Corporation', 'Koch Media', 'Game Factory', 'Titus', 'Marvelous Entertainment', 'Genki', 'Mojang', 'CTO SpA', 'TalonSoft', 'Crystal Dynamics', 'Square Enix ', 'mixi, Inc', 'Pinnacle', 'SCi', 'Quelle', 'Rage Software', 'Ubisoft Annecy', 'Interplay', 'Scholastic Inc.', 'Mystique', 'ChunSoft', 'Square EA', '20th Century Fox Video Games', 'Hudson Entertainment', 'Men-A-Vision', 'Nobilis', 'Avanquest Software', 'Big Ben Interactive', 'Nordic Games', 'Touchstone', 'Spike', 'Nippon Ichi Software', 'Sony Computer Entertainment America', 'Jester Interactive', 'LEGO Media', 'Quest', 'Illusion Softworks', 'Tigervision', 'Rocket Company </p>
+    
+    <form action="/recommend" method="POST">
+        <label for="genre" style="color:white;">Genre:</label>
+        <input type="text" id="genre" name="genre" required><br><br>
+        <label for="platform" style="color:white;">Platform:</label>
+        <input type="text" id="platform" name="platform" required><br><br>
+        <label for="publisher" style="color:white;">Publisher:</label>
+        <input type="text" id="publisher" name="publisher" required><br><br>
+        <input type="submit" value="Recommend">
+    </form>
+</body>
+</html>
